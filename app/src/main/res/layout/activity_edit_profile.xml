@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:background="@color/black"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img6"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/profile_image"
+        android:textSize="20dp"
+        android:text="Change Email"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/profile_image"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="20dp"
+        android:text="Update Your Profile"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txt"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#327A7979"
+        android:hint="Enter Existing Email"
+        android:inputType="textEmailAddress"
+        android:gravity="center" />
+        <Button
+            android:id="@+id/pb"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/email"
+            android:text="Next"
+            android:backgroundTint="#256CFF"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"/>
+     <EditText
+            android:id="@+id/pass"
+            android:layout_width="170dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/txt"
+            android:layout_toRightOf="@+id/email"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#327A7979"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:gravity="center" />
+        <EditText
+            android:id="@+id/emailNew"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/email"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#327A7979"
+            android:hint="Enter New Email"
+            android:inputType="textEmailAddress"
+            android:gravity="center" />
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/emailNew"
+        android:textSize="20dp"
+        android:text="Change Semester"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/sem"
+        android:textSize="20dp"
+        android:text="Change Name"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/sem"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txt1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="12dp"
+        android:background="#327A7979"
+        android:hint="Enter Semester"
+        android:importantForAutofill="yes"
+        android:inputType="number"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/usn2"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txt2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#327A7979"
+        android:gravity="center"
+        android:hint="First name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/usn3"
+        android:layout_width="145dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txt2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@id/usn2"
+        android:background="#327A7979"
+        android:gravity="center"
+        android:hint="Last name"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/usn2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#256CFF"
+        android:fontFamily="sans-serif"
+        android:text="Update" />
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

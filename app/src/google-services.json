@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "196631317723",
+    "project_id": "selfagram-b8e3f",
+    "storage_bucket": "selfagram-b8e3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196631317723:android:23970a4cf4b408b1c0d0fe",
+        "android_client_info": {
+          "package_name": "com.example.selfagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196631317723-9ehsipgb2e5s53ao2kvohfnuesirahgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoERXGv0HZAQGvi5DA1rPOyfvibRev1fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196631317723-9ehsipgb2e5s53ao2kvohfnuesirahgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

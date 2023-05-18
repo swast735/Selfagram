@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/MyProfile"
+        android:title="Profile"
+        android:icon="@drawable/ic_user_foreground"/>
+    <item
+        android:id="@+id/home"
+        android:title="Pics"
+        android:icon="@drawable/ic_pics_foreground"/>
+    <item
+        android:id="@+id/notes"
+        android:title="Notes"
+        android:icon="@drawable/ic_notes_foreground" />
+    <item
+        android:id="@+id/about"
+        android:title="About App"
+        android:icon="@drawable/ic_info_foreground" />
+
+</menu>
