@@ -69,7 +69,6 @@ class SignUp : AppCompatActivity() {
     fun frgtpass(view: View) {
         startActivity(Intent(this@SignUp,Recovery::class.java))
     }
-
     override fun onPause() {
         super.onPause()
         if(sp.getBoolean("IsloggedIn",false))
